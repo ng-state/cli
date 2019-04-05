@@ -1,0 +1,35 @@
+{
+    "name": "ng-state-cli",
+    "version": "1.0.0",
+    "description": "Package for generating ng-state files",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ng-state/cli.git"
+    },
+    "keywords": [
+        "ng-state",
+        "cli"
+    ],
+    "author": "Vytautas Pranskunas",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ng-state/cli/issues"
+    },
+    "homepage": "https://github.com/ng-state/cli#readme",
+    "dependencies": {
+        "find-package-json": "^1.2.0",
+        "inquirer-directory": "^2.1.0",
+        "path": "^0.12.7",
+        "plop": "^2.3.0",
+        "pluralize": "^7.0.0"
+    },
+    "ngStateCli": {
+        "componentPrefix": "wl",
+        "actionFolderName": "custom-actions",
+        "style": "scss"
+    }
+}
