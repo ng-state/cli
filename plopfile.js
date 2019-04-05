@@ -8,7 +8,7 @@ module.exports = function (plop) {
     const customPath = (packageJson.ngStateCli && packageJson.ngStateCli.basePath) || '';
     const componentPrefix = (packageJson.ngStateCli && packageJson.ngStateCli.componentPrefix) || 'app';
     const style = (packageJson.ngStateCli && packageJson.ngStateCli.style) || 'css';
-    const folderName = (packageJson.ngStateCli && packageJson.ngStateCli.actionFolderName) || 'actions';
+    const folderName = (packageJson.ngStateCli && packageJson.ngStateCli.actionsFolderName) || 'actions';
 
     const userConfig = path.resolve(process.cwd(), customPath);
     const basePath = userConfig || process.cwd();
