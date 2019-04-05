@@ -1,10 +1,10 @@
 {
     "name": "ng-state-cli",
-    "version": "1.0.0",
-    "description": "Package for generating ng-state files",
+    "version": "1.0.1",
+    "description": "ng-state CLIS",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "plop": "plop"
     },
     "repository": {
         "type": "git",
@@ -27,9 +27,7 @@
         "plop": "^2.3.0",
         "pluralize": "^7.0.0"
     },
-    "ngStateCli": {
-        "componentPrefix": "wl",
-        "actionFolderName": "custom-actions",
-        "style": "scss"
+    "bin": {
+        "ngstate": "index.js"
     }
 }

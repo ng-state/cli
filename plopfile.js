@@ -135,8 +135,7 @@ module.exports = function (plop) {
             pattern: /component = fixture.componentInstance;/i,
             template: `component = fixture.componentInstance;
     const actions = NgStateTestBed.createActions<{{'pascalCase' name}}StateActions>({{'pascalCase' name}}StateActions);
-    NgStateTestBed.setActionsToComponent(actions, component);
-            `
+    NgStateTestBed.setActionsToComponent(actions, component);`
         };
 
         return [actions, removeEmptyConstructor, addConstructor, addDecorator, addActionImports, addImports, addSpecImports, addSpecBeforeAll, addSpecActionsAll, addSpecActionsImports];
