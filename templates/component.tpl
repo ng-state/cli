@@ -9,7 +9,6 @@ import { {{pascalCase name}}StateActions } from './{{folderName}}/{{name}}.actio
   styleUrls: ['./{{name}}.component.{{style}}'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-
 export class {{pascalCase name}}Component extends HasStateActions<{{pascalCase name}}StateActions> {
     constructor(cd: ChangeDetectorRef) {
         super(cd);
